@@ -1,0 +1,89 @@
+body {
+  font-family: 'Inter', 'Avenir', Helvetica, Arial, sans-serif;
+  color: rgba(255, 255, 255, 0.87);
+  background: #282C33;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  width: 80%;
+  max-width: 600px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  
+}
+
+input {
+  background: rgba(217, 217, 217, 0.1);
+  border-radius: 10px;
+  border: none;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 1em;
+  color: white;
+}
+
+button {
+  background: #96EB95;
+  border: 1px solid #96EB95;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 1.2em;
+  color: #373737;
+  width: 100%;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #77d277;
+}
+
+.error-message {
+  color: #ff6b6b;
+  font-size: 1em;
+  margin-top: 10px;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.crypto-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.crypto-data {
+  background: #373737;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+}
